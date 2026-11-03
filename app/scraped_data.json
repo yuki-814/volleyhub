@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-11-04 00:06:48",
+  "teams": [
+    {
+      "id": "vb-team-骏台学园",
+      "name_zh": "骏台学园",
+      "name_ja": "駿台学園",
+      "name_hira": "すんだいがくえん",
+      "main_category": "高校",
+      "region": "东京",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 东京代表名门"
+    },
+    {
+      "id": "vb-team-东山高校",
+      "name_zh": "东山高校",
+      "name_ja": "東山高校",
+      "name_hira": "ひがしやま",
+      "main_category": "高校",
+      "region": "京都",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 京都代表名门"
+    },
+    {
+      "id": "vb-team-清风高校",
+      "name_zh": "清风高校",
+      "name_ja": "清風高校",
+      "name_hira": "せいふう",
+      "main_category": "高校",
+      "region": "大阪",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 大阪代表名门"
+    },
+    {
+      "id": "vb-team-镇西高校",
+      "name_zh": "镇西高校",
+      "name_ja": "鎮西高校",
+      "name_hira": "ちんぜい",
+      "main_category": "高校",
+      "region": "熊本",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 熊本代表名门"
+    },
+    {
+      "id": "vb-team-星城高校",
+      "name_zh": "星城高校",
+      "name_ja": "星城高校",
+      "name_hira": "せいじょう",
+      "main_category": "高校",
+      "region": "爱知",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 爱知代表名门"
+    },
+    {
+      "id": "vb-team-东福冈高校",
+      "name_zh": "东福冈高校",
+      "name_ja": "東福岡高校",
+      "name_hira": "ひがしふくおか",
+      "main_category": "高校",
+      "region": "福冈",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 福冈代表名门"
+    },
+    {
+      "id": "vb-team-下北泽成德",
+      "name_zh": "下北泽成德",
+      "name_ja": "下北沢成徳",
+      "name_hira": "しもきたざわせいとく",
+      "main_category": "高校",
+      "region": "东京",
+      "gender": "WOMEN",
+      "desc": "Volleybox 同步档案 · 东京代表名门"
+    },
+    {
+      "id": "vb-team-金兰会高校",
+      "name_zh": "金兰会高校",
+      "name_ja": "金蘭会高校",
+      "name_hira": "きんらんかい",
+      "main_category": "高校",
+      "region": "大阪",
+      "gender": "WOMEN",
+      "desc": "Volleybox 同步档案 · 大阪代表名门"
+    },
+    {
+      "id": "vb-team-早稻田大学",
+      "name_zh": "早稻田大学",
+      "name_ja": "早稲田大学",
+      "name_hira": "わせだだいがく",
+      "main_category": "大学",
+      "region": "关东1部",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 关东1部代表名门"
+    },
+    {
+      "id": "vb-team-中央大学",
+      "name_zh": "中央大学",
+      "name_ja": "中央大学",
+      "name_hira": "ちゅうおうだいがく",
+      "main_category": "大学",
+      "region": "关东1部",
+      "gender": "MEN",
+      "desc": "Volleybox 同步档案 · 关东1部代表名门"
+    }
+  ],
+  "players": [],
+  "matches": []
+}
