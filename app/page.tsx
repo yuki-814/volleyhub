@@ -151,7 +151,7 @@ export default function Home() {
     .filter(t => !globalSearch || getName(t).toLowerCase().includes(globalSearch.toLowerCase()) || getIntro(t).toLowerCase().includes(globalSearch.toLowerCase()))
 
   return (
-    <main className="min-h-screen bg-[#07090e] text-gray-100 font-sans pb-20">
+    <main className="min-h-screen bg-[#07090e]/60 text-gray-100 font-sans pb-20">
       {/* 顶部全局导航栏 */}
       <div className="border-b border-gray-800/80 bg-[#0b0f17]/90 backdrop-blur-md sticky top-0 z-40">
         <div className="max-w-6xl mx-auto px-4 md:px-8 py-4">
