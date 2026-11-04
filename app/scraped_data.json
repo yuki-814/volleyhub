@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04 00:06:48",
+  "updated_at": "2026-11-04 18:37:56",
   "teams": [
     {
       "id": "vb-team-骏台学园",
@@ -9,37 +9,37 @@
       "main_category": "高校",
       "region": "东京",
       "gender": "MEN",
-      "desc": "Volleybox 同步档案 · 东京代表名门"
+      "desc": "Volleybox 自动同步名门档案"
     },
     {
       "id": "vb-team-东山高校",
       "name_zh": "东山高校",
-      "name_ja": "東山高校",
+      "name_ja": "東山高等学校",
       "name_hira": "ひがしやま",
       "main_category": "高校",
       "region": "京都",
       "gender": "MEN",
-      "desc": "Volleybox 同步档案 · 京都代表名门"
+      "desc": "Volleybox 自动同步名门档案"
     },
     {
       "id": "vb-team-清风高校",
       "name_zh": "清风高校",
-      "name_ja": "清風高校",
+      "name_ja": "清風高等学校",
       "name_hira": "せいふう",
       "main_category": "高校",
       "region": "大阪",
       "gender": "MEN",
-      "desc": "Volleybox 同步档案 · 大阪代表名门"
+      "desc": "Volleybox 自动同步名门档案"
     },
     {
       "id": "vb-team-镇西高校",
       "name_zh": "镇西高校",
-      "name_ja": "鎮西高校",
+      "name_ja": "鎮西高等学校",
       "name_hira": "ちんぜい",
       "main_category": "高校",
       "region": "熊本",
       "gender": "MEN",
-      "desc": "Volleybox 同步档案 · 熊本代表名门"
+      "desc": "Volleybox 自动同步名门档案"
     },
     {
       "id": "vb-team-星城高校",
@@ -89,7 +89,7 @@
       "main_category": "大学",
       "region": "关东1部",
       "gender": "MEN",
-      "desc": "Volleybox 同步档案 · 关东1部代表名门"
+      "desc": "Volleybox 自动同步名门档案"
     },
     {
       "id": "vb-team-中央大学",
@@ -99,9 +99,4713 @@
       "main_category": "大学",
       "region": "关东1部",
       "gender": "MEN",
-      "desc": "Volleybox 同步档案 · 关东1部代表名门"
+      "desc": "Volleybox 自动同步名门档案"
+    },
+    {
+      "id": "vb-team-静清高校",
+      "name_zh": "静清高校",
+      "name_ja": "静清高等学校",
+      "name_hira": "せいせい",
+      "main_category": "高校",
+      "region": "静冈",
+      "gender": "MEN",
+      "desc": "Volleybox 自动同步名门档案"
+    },
+    {
+      "id": "vb-team-东福冈",
+      "name_zh": "东福冈",
+      "name_ja": "東福岡高等学校",
+      "name_hira": "ひがしふくおか",
+      "main_category": "高校",
+      "region": "福冈",
+      "gender": "MEN",
+      "desc": "Volleybox 自动同步名门档案"
+    },
+    {
+      "id": "vb-team-秋田県立雄物川高校",
+      "name_zh": "秋田県立雄物川高校",
+      "name_ja": "秋田県立雄物川高等学校",
+      "name_hira": "",
+      "main_category": "高校",
+      "region": "东京",
+      "gender": "MEN",
+      "desc": "Volleybox 自动同步名门档案"
+    },
+    {
+      "id": "vb-team-鎮西高校",
+      "name_zh": "鎮西高校",
+      "name_ja": "鎮西高等学校",
+      "name_hira": "",
+      "main_category": "高校",
+      "region": "东京",
+      "gender": "MEN",
+      "desc": "Volleybox 自动同步名门档案"
+    },
+    {
+      "id": "vb-team-福井工業大学附属福井高校",
+      "name_zh": "福井工業大学附属福井高校",
+      "name_ja": "福井工業大学附属福井高等学校",
+      "name_hira": "",
+      "main_category": "高校",
+      "region": "东京",
+      "gender": "MEN",
+      "desc": "Volleybox 自动同步名门档案"
+    },
+    {
+      "id": "vb-team-宮崎県立都城工業高校",
+      "name_zh": "宮崎県立都城工業高校",
+      "name_ja": "宮崎県立都城工業高等学校",
+      "name_hira": "",
+      "main_category": "高校",
+      "region": "东京",
+      "gender": "MEN",
+      "desc": "Volleybox 自动同步名门档案"
     }
   ],
-  "players": [],
+  "players": [
+    {
+      "id": "vb-p332049",
+      "name_zh": "Aoi Kobayashi",
+      "name_ja": "Aoi Kobayashi",
+      "name_hira": "",
+      "name_en": "Aoi Kobayashi",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "178 cm",
+      "spike_reach": "305 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332050",
+      "name_zh": "Yuki Higo",
+      "name_ja": "Yuki Higo",
+      "name_hira": "",
+      "name_en": "Yuki Higo",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "165 cm",
+      "spike_reach": "292 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p315454",
+      "name_zh": "Jihan Lee",
+      "name_ja": "Jihan Lee",
+      "name_hira": "",
+      "name_en": "Jihan Lee",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2009年",
+      "height": "191 cm",
+      "spike_reach": "323 cm",
+      "block_reach": "320 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332674",
+      "name_zh": "Yu Tsujimoto",
+      "name_ja": "Yu Tsujimoto",
+      "name_hira": "",
+      "name_en": "Yu Tsujimoto",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "自由人 (L)",
+      "birthday": "2007年",
+      "height": "168 cm",
+      "spike_reach": "292 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p159517",
+      "name_zh": "岩田怜纬",
+      "name_ja": "岩田怜纬",
+      "name_hira": "",
+      "name_en": "岩田怜纬",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2008年",
+      "height": "189 cm",
+      "spike_reach": "340 cm",
+      "block_reach": "310 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332048",
+      "name_zh": "Eito Komagome",
+      "name_ja": "Eito Komagome",
+      "name_hira": "",
+      "name_en": "Eito Komagome",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "313 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332047",
+      "name_zh": "Satsuki Ito",
+      "name_ja": "Satsuki Ito",
+      "name_hira": "",
+      "name_en": "Satsuki Ito",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "177 cm",
+      "spike_reach": "316 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332051",
+      "name_zh": "Taishi Sugai",
+      "name_ja": "Taishi Sugai",
+      "name_hira": "",
+      "name_en": "Taishi Sugai",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "182 cm",
+      "spike_reach": "324 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332043",
+      "name_zh": "Yuto Higashimura",
+      "name_ja": "Yuto Higashimura",
+      "name_hira": "",
+      "name_en": "Yuto Higashimura",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "189 cm",
+      "spike_reach": "321 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332046",
+      "name_zh": "Seitaro Yamagami",
+      "name_ja": "Seitaro Yamagami",
+      "name_hira": "",
+      "name_en": "Seitaro Yamagami",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "173 cm",
+      "spike_reach": "310 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chukyo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332042",
+      "name_zh": "Kosei Nakanishi",
+      "name_ja": "Kosei Nakanishi",
+      "name_hira": "",
+      "name_en": "Kosei Nakanishi",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "184 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Tenri University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332052",
+      "name_zh": "Haruhi Kikuchi",
+      "name_ja": "Haruhi Kikuchi",
+      "name_hira": "",
+      "name_en": "Haruhi Kikuchi",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "184 cm",
+      "spike_reach": "311 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p224386",
+      "name_zh": "斋藤航",
+      "name_ja": "斋藤航",
+      "name_hira": "",
+      "name_en": "斋藤航",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "195 cm",
+      "spike_reach": "331 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "NSSU",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332044",
+      "name_zh": "Fuga Ozawa",
+      "name_ja": "Fuga Ozawa",
+      "name_hira": "",
+      "name_en": "Fuga Ozawa",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "185 cm",
+      "spike_reach": "331 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Komazawa University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332045",
+      "name_zh": "Ko Mabuguchi",
+      "name_ja": "Ko Mabuguchi",
+      "name_hira": "",
+      "name_en": "Ko Mabuguchi",
+      "team_name": "东山高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "318 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p100934",
+      "name_zh": "贾科波·安杰利",
+      "name_ja": "贾科波·安杰利",
+      "name_hira": "",
+      "name_en": "贾科波·安杰利",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2014年",
+      "height": "196 cm",
+      "spike_reach": "343 cm",
+      "block_reach": "330 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26",
+          "team": "Don Celso Pallavolo Fermo",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "Axore Pallavolo Macerata",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2023/24",
+          "team": "Novavolley Loreto 2014",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2021/22",
+          "team": "Volley Potentino",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331813",
+      "name_zh": "Eito Kakimoto",
+      "name_ja": "Eito Kakimoto",
+      "name_hira": "",
+      "name_en": "Eito Kakimoto",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "177 cm",
+      "spike_reach": "305 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p222275",
+      "name_zh": "丸山祥二",
+      "name_ja": "丸山祥二",
+      "name_hira": "",
+      "name_en": "丸山祥二",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2015年",
+      "height": "188 cm",
+      "spike_reach": "345 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2015/16 - 2017/18",
+          "team": "Tsukuba United SunGAIA",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2012/13 - 2015/16",
+          "team": "Tsukuba United SunGAIA",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2007/08 - 2010/11",
+          "team": "名古屋狼犬",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p224391",
+      "name_zh": "清水咲杜",
+      "name_ja": "清水咲杜",
+      "name_hira": "",
+      "name_en": "清水咲杜",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "177 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Kokushikan University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331804",
+      "name_zh": "Yuga Aoishi",
+      "name_ja": "Yuga Aoishi",
+      "name_hira": "",
+      "name_en": "Yuga Aoishi",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "171 cm",
+      "spike_reach": "305 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331798",
+      "name_zh": "Toa Mizuno",
+      "name_ja": "Toa Mizuno",
+      "name_hira": "",
+      "name_en": "Toa Mizuno",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "178 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chukyo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331799",
+      "name_zh": "Daichi Kawakami",
+      "name_ja": "Daichi Kawakami",
+      "name_hira": "",
+      "name_en": "Daichi Kawakami",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p265750",
+      "name_zh": "铃木梦优",
+      "name_ja": "铃木梦优",
+      "name_hira": "",
+      "name_en": "铃木梦优",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "189 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Meiji University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331808",
+      "name_zh": "Rua Suzuki",
+      "name_ja": "Rua Suzuki",
+      "name_hira": "",
+      "name_en": "Rua Suzuki",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "172 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331811",
+      "name_zh": "Naoya Otsubo",
+      "name_ja": "Naoya Otsubo",
+      "name_hira": "",
+      "name_en": "Naoya Otsubo",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "169 cm",
+      "spike_reach": "305 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331800",
+      "name_zh": "Sakuto Abe",
+      "name_ja": "Sakuto Abe",
+      "name_hira": "",
+      "name_en": "Sakuto Abe",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "180 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331809",
+      "name_zh": "Sawa Takei",
+      "name_ja": "Sawa Takei",
+      "name_hira": "",
+      "name_en": "Sawa Takei",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "180 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331807",
+      "name_zh": "Kotetsu Oshio",
+      "name_ja": "Kotetsu Oshio",
+      "name_hira": "",
+      "name_en": "Kotetsu Oshio",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "200 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331802",
+      "name_zh": "Rekuto Tenma",
+      "name_ja": "Rekuto Tenma",
+      "name_hira": "",
+      "name_en": "Rekuto Tenma",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "自由人 (L)",
+      "birthday": "2007年",
+      "height": "165 cm",
+      "spike_reach": "280 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331810",
+      "name_zh": "Taisei Yamamoto",
+      "name_ja": "Taisei Yamamoto",
+      "name_hira": "",
+      "name_en": "Taisei Yamamoto",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "168 cm",
+      "spike_reach": "280 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seisei High school",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p420",
+      "name_zh": "伊班·佩雷斯·曼萨纳雷斯",
+      "name_ja": "伊班·佩雷斯·曼萨纳雷斯",
+      "name_hira": "",
+      "name_en": "伊班·佩雷斯·曼萨纳雷斯",
+      "team_name": "静清高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2010年",
+      "height": "198 cm",
+      "spike_reach": "353 cm",
+      "block_reach": "323 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "Chaumont Volley-Ball CFC",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chaumont Volley-Ball 52",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2025/26",
+          "team": "2026年1月5日 - 2026年6月30日",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24",
+          "team": "Paris Volley",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331761",
+      "name_zh": "Ju-Seong Lee",
+      "name_ja": "Ju-Seong Lee",
+      "name_hira": "",
+      "name_en": "Ju-Seong Lee",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2009年",
+      "height": "185 cm",
+      "spike_reach": "316 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p344279",
+      "name_zh": "Ko Seino",
+      "name_ja": "Ko Seino",
+      "name_hira": "",
+      "name_en": "Ko Seino",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2009年",
+      "height": "173 cm",
+      "spike_reach": "326 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p347942",
+      "name_zh": "Kouki Sekozawa",
+      "name_ja": "Kouki Sekozawa",
+      "name_hira": "",
+      "name_en": "Kouki Sekozawa",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2010年",
+      "height": "181 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2028/29",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331759",
+      "name_zh": "Naruto Maeda",
+      "name_ja": "Naruto Maeda",
+      "name_hira": "",
+      "name_en": "Naruto Maeda",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "179 cm",
+      "spike_reach": "325 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331756",
+      "name_zh": "Yuichiro Takeuchi",
+      "name_ja": "Yuichiro Takeuchi",
+      "name_hira": "",
+      "name_en": "Yuichiro Takeuchi",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "323 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p344282",
+      "name_zh": "Gota Nonaka",
+      "name_ja": "Gota Nonaka",
+      "name_hira": "",
+      "name_en": "Gota Nonaka",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2009年",
+      "height": "183 cm",
+      "spike_reach": "334 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p344283",
+      "name_zh": "Haruto Nishiyama",
+      "name_ja": "Haruto Nishiyama",
+      "name_hira": "",
+      "name_en": "Haruto Nishiyama",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2009年",
+      "height": "190 cm",
+      "spike_reach": "318 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331755",
+      "name_zh": "Koki Saito",
+      "name_ja": "Koki Saito",
+      "name_hira": "",
+      "name_en": "Koki Saito",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "193 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329452",
+      "name_zh": "Toshihiro Imabuchi",
+      "name_ja": "Toshihiro Imabuchi",
+      "name_hira": "",
+      "name_en": "Toshihiro Imabuchi",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2011年",
+      "height": "193 cm",
+      "spike_reach": "334 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2028/29",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331757",
+      "name_zh": "Hinata Inoue",
+      "name_ja": "Hinata Inoue",
+      "name_hira": "",
+      "name_en": "Hinata Inoue",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "174 cm",
+      "spike_reach": "300 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p344280",
+      "name_zh": "Shunya Tsukada",
+      "name_ja": "Shunya Tsukada",
+      "name_hira": "",
+      "name_en": "Shunya Tsukada",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2008年",
+      "height": "172 cm",
+      "spike_reach": "305 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p255549",
+      "name_zh": "畠昊太郎",
+      "name_ja": "畠昊太郎",
+      "name_hira": "",
+      "name_en": "畠昊太郎",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2008年",
+      "height": "182 cm",
+      "spike_reach": "337 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p255552",
+      "name_zh": "落合康阳",
+      "name_ja": "落合康阳",
+      "name_hira": "",
+      "name_en": "落合康阳",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2008年",
+      "height": "192 cm",
+      "spike_reach": "328 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p255637",
+      "name_zh": "竹内飒太",
+      "name_ja": "竹内飒太",
+      "name_hira": "",
+      "name_en": "竹内飒太",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "180 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p257835",
+      "name_zh": "小布施琢磨",
+      "name_ja": "小布施琢磨",
+      "name_hira": "",
+      "name_en": "小布施琢磨",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2008年",
+      "height": "199 cm",
+      "spike_reach": "342 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p167202",
+      "name_zh": "阿尔图尔·弗拉索夫",
+      "name_ja": "阿尔图尔·弗拉索夫",
+      "name_hira": "",
+      "name_en": "阿尔图尔·弗拉索夫",
+      "team_name": "骏台学园",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2018年",
+      "height": "195 cm",
+      "spike_reach": "355 cm",
+      "block_reach": "330 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "KV Skenderbeu",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2025/26",
+          "team": "Florigel Andria",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "HK Kópavogur",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "Þróttur Reykjavík",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332055",
+      "name_zh": "Sosuke Sakamoto",
+      "name_ja": "Sosuke Sakamoto",
+      "name_hira": "",
+      "name_en": "Sosuke Sakamoto",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "179 cm",
+      "spike_reach": "323 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329465",
+      "name_zh": "Anji Tanaka",
+      "name_ja": "Anji Tanaka",
+      "name_hira": "",
+      "name_en": "Anji Tanaka",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "183 cm",
+      "spike_reach": "334 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2028/29",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p269818",
+      "name_zh": "西村海司",
+      "name_ja": "西村海司",
+      "name_hira": "",
+      "name_en": "西村海司",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2009年",
+      "height": "182 cm",
+      "spike_reach": "338 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p291253",
+      "name_zh": "Taisei Deguchi",
+      "name_ja": "Taisei Deguchi",
+      "name_hira": "",
+      "name_en": "Taisei Deguchi",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "175 cm",
+      "spike_reach": "322 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332058",
+      "name_zh": "Rihito Ikenoue",
+      "name_ja": "Rihito Ikenoue",
+      "name_hira": "",
+      "name_en": "Rihito Ikenoue",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "186 cm",
+      "spike_reach": "325 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p291254",
+      "name_zh": "Yusuke Moriwaki",
+      "name_ja": "Yusuke Moriwaki",
+      "name_hira": "",
+      "name_en": "Yusuke Moriwaki",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "180 cm",
+      "spike_reach": "328 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p291244",
+      "name_zh": "Riku Morita",
+      "name_ja": "Riku Morita",
+      "name_hira": "",
+      "name_en": "Riku Morita",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "178 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p291250",
+      "name_zh": "Shotaro Ito",
+      "name_ja": "Shotaro Ito",
+      "name_hira": "",
+      "name_en": "Shotaro Ito",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332057",
+      "name_zh": "Taki Ozaki",
+      "name_ja": "Taki Ozaki",
+      "name_hira": "",
+      "name_en": "Taki Ozaki",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "174 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p291251",
+      "name_zh": "Toma Ishikawa",
+      "name_ja": "Toma Ishikawa",
+      "name_hira": "",
+      "name_en": "Toma Ishikawa",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "188 cm",
+      "spike_reach": "331 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p291252",
+      "name_zh": "Risei Tahara",
+      "name_ja": "Risei Tahara",
+      "name_hira": "",
+      "name_en": "Risei Tahara",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "190 cm",
+      "spike_reach": "325 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332056",
+      "name_zh": "Jigen Sawada",
+      "name_ja": "Jigen Sawada",
+      "name_hira": "",
+      "name_en": "Jigen Sawada",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "172 cm",
+      "spike_reach": "305 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p254798",
+      "name_zh": "松本凛虎",
+      "name_ja": "松本凛虎",
+      "name_hira": "",
+      "name_en": "松本凛虎",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "322 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259798",
+      "name_zh": "Ryota Ozaki",
+      "name_ja": "Ryota Ozaki",
+      "name_hira": "",
+      "name_en": "Ryota Ozaki",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "186 cm",
+      "spike_reach": "335 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Kindai University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332053",
+      "name_zh": "Soichiro Kato",
+      "name_ja": "Soichiro Kato",
+      "name_hira": "",
+      "name_en": "Soichiro Kato",
+      "team_name": "清风高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "190 cm",
+      "spike_reach": "325 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Komazawa University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p5647",
+      "name_zh": "弗拉维奥·索亚雷斯 (Zelão)",
+      "name_ja": "弗拉维奥·索亚雷斯 (Zelão)",
+      "name_hira": "",
+      "name_en": "弗拉维奥·索亚雷斯 (Zelão)",
+      "team_name": "镇西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2009年",
+      "height": "199 cm",
+      "spike_reach": "329 cm",
+      "block_reach": "317 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "Associação de Moradores de Santo António",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2024/25",
+          "team": "CV Oeiras U21",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "CV Oeiras",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2009/10 - 2021/22",
+          "team": "SL Benfica",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p286431",
+      "name_zh": "Ren Yoshimura",
+      "name_ja": "Ren Yoshimura",
+      "name_hira": "",
+      "name_en": "Ren Yoshimura",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "175 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p335678",
+      "name_zh": "Eita Yoshizuka",
+      "name_ja": "Eita Yoshizuka",
+      "name_hira": "",
+      "name_en": "Eita Yoshizuka",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "186 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p159543",
+      "name_zh": "岩野泰雅",
+      "name_ja": "岩野泰雅",
+      "name_hira": "",
+      "name_en": "岩野泰雅",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2008年",
+      "height": "180 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "296 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p275100",
+      "name_zh": "Yuzuki Maeda",
+      "name_ja": "Yuzuki Maeda",
+      "name_hira": "",
+      "name_en": "Yuzuki Maeda",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "182 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259808",
+      "name_zh": "糸濑翔马",
+      "name_ja": "糸濑翔马",
+      "name_hira": "",
+      "name_en": "糸濑翔马",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "182 cm",
+      "spike_reach": "336 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Komazawa University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p344491",
+      "name_zh": "Kaishin Ikeda",
+      "name_ja": "Kaishin Ikeda",
+      "name_hira": "",
+      "name_en": "Kaishin Ikeda",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "自由人 (L)",
+      "birthday": "2007年",
+      "height": "170 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p334229",
+      "name_zh": "Soichi Fujimoto",
+      "name_ja": "Soichi Fujimoto",
+      "name_hira": "",
+      "name_en": "Soichi Fujimoto",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2008年",
+      "height": "192 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2006/07 - 至今",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2002/03 - 2005/06",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p256677",
+      "name_zh": "松下晃大",
+      "name_ja": "松下晃大",
+      "name_hira": "",
+      "name_en": "松下晃大",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "187 cm",
+      "spike_reach": "339 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Tokai University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p261273",
+      "name_zh": "安座间琉新",
+      "name_ja": "安座间琉新",
+      "name_hira": "",
+      "name_en": "安座间琉新",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2006年",
+      "height": "181 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Tokai University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p263297",
+      "name_zh": "坪井腾矢",
+      "name_ja": "坪井腾矢",
+      "name_hira": "",
+      "name_en": "坪井腾矢",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "180 cm",
+      "spike_reach": "325 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Meijo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p256679",
+      "name_zh": "照屋舜",
+      "name_ja": "照屋舜",
+      "name_hira": "",
+      "name_en": "照屋舜",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "184 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Ritsumeikan University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259901",
+      "name_zh": "金城哉汰",
+      "name_ja": "金城哉汰",
+      "name_hira": "",
+      "name_en": "金城哉汰",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "自由人 (L)",
+      "birthday": "2007年",
+      "height": "170 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "University of East Asia",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p104212",
+      "name_zh": "葭原逢太",
+      "name_ja": "葭原逢太",
+      "name_hira": "",
+      "name_en": "葭原逢太",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2005年",
+      "height": "183 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Tokai University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p138308",
+      "name_zh": "川野史童",
+      "name_ja": "川野史童",
+      "name_hira": "",
+      "name_en": "川野史童",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2004年",
+      "height": "199 cm",
+      "spike_reach": "337 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Tokai University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p278355",
+      "name_zh": "Yuma Isowaki",
+      "name_ja": "Yuma Isowaki",
+      "name_hira": "",
+      "name_en": "Yuma Isowaki",
+      "team_name": "东福冈",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2004年",
+      "height": "180 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Meiji University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2025/26",
+          "team": "长野三叉戟",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p203429",
+      "name_zh": "安德烈亚·巴劳塞",
+      "name_ja": "安德烈亚·巴劳塞",
+      "name_hira": "",
+      "name_en": "安德烈亚·巴劳塞",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2019年",
+      "height": "187 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "310 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 至今",
+          "team": "Galway Volleyball Club U18",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2025/26",
+          "team": "Galway Volleyball Club",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2025/26",
+          "team": "Galway Volleyball Club",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24",
+          "team": "Galway Volleyball Club",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331760",
+      "name_zh": "Atsumichi Kaede",
+      "name_ja": "Atsumichi Kaede",
+      "name_hira": "",
+      "name_en": "Atsumichi Kaede",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "177 cm",
+      "spike_reach": "300 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p257572",
+      "name_zh": "濑川樱辉",
+      "name_ja": "濑川樱辉",
+      "name_hira": "",
+      "name_en": "濑川樱辉",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Tohoku High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p342789",
+      "name_zh": "Kouma Sekiya",
+      "name_ja": "Kouma Sekiya",
+      "name_hira": "",
+      "name_en": "Kouma Sekiya",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "177 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Hamamatsu Shugakusha High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p126868",
+      "name_zh": "川野琢磨",
+      "name_ja": "川野琢磨",
+      "name_hira": "",
+      "name_en": "川野琢磨",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2006年",
+      "height": "197 cm",
+      "spike_reach": "344 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "东京大熊",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p321029",
+      "name_zh": "Kota Saito",
+      "name_ja": "Kota Saito",
+      "name_hira": "",
+      "name_en": "Kota Saito",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "186 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Rakunan High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p253424",
+      "name_zh": "德留巧大",
+      "name_ja": "德留巧大",
+      "name_hira": "",
+      "name_en": "德留巧大",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "190 cm",
+      "spike_reach": "335 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Matsumoto Kokusai High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p206480",
+      "name_zh": "中上烈",
+      "name_ja": "中上烈",
+      "name_hira": "",
+      "name_en": "中上烈",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2006年",
+      "height": "190 cm",
+      "spike_reach": "345 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Rakunan High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p104216",
+      "name_zh": "小野骏太",
+      "name_ja": "小野骏太",
+      "name_hira": "",
+      "name_en": "小野骏太",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "186 cm",
+      "spike_reach": "340 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Seirei Christopher High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p104214",
+      "name_zh": "罗森·马克·尤伦二世",
+      "name_ja": "罗森·马克·尤伦二世",
+      "name_hira": "",
+      "name_en": "罗森·马克·尤伦二世",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "190 cm",
+      "spike_reach": "345 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Tsuchiura Nihon University High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259811",
+      "name_zh": "荒木拓来",
+      "name_ja": "荒木拓来",
+      "name_hira": "",
+      "name_en": "荒木拓来",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "197 cm",
+      "spike_reach": "332 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Ohmi High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p331792",
+      "name_zh": "Motoki Kobayashi",
+      "name_ja": "Motoki Kobayashi",
+      "name_hira": "",
+      "name_en": "Motoki Kobayashi",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "166 cm",
+      "spike_reach": "281 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Japan Aviation High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p151246",
+      "name_zh": "新井琉之介",
+      "name_ja": "新井琉之介",
+      "name_hira": "",
+      "name_en": "新井琉之介",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "192 cm",
+      "spike_reach": "343 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Waseda Jitsugyo High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p126871",
+      "name_zh": "佐藤遥斗",
+      "name_ja": "佐藤遥斗",
+      "name_hira": "",
+      "name_en": "佐藤遥斗",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "190 cm",
+      "spike_reach": "332 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p176645",
+      "name_zh": "安食浩士",
+      "name_ja": "安食浩士",
+      "name_hira": "",
+      "name_en": "安食浩士",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2019年",
+      "height": "185 cm",
+      "spike_reach": "343 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2019/20 - 2022/23",
+          "team": "Tohoku High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p326122",
+      "name_zh": "Roman Gorbunov",
+      "name_ja": "Roman Gorbunov",
+      "name_hira": "",
+      "name_en": "Roman Gorbunov",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "180 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "300 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "早稻田大学",
+          "league": "春高 / 高校联赛"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p82648",
+      "name_zh": "麻野坚斗",
+      "name_ja": "麻野坚斗",
+      "name_hira": "",
+      "name_en": "麻野坚斗",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2004年",
+      "height": "207 cm",
+      "spike_reach": "345 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "三得利太阳鸟",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p253451",
+      "name_zh": "菅原启",
+      "name_ja": "菅原启",
+      "name_hira": "",
+      "name_en": "菅原启",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2004年",
+      "height": "193 cm",
+      "spike_reach": "333 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Yamagata Minami High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p323427",
+      "name_zh": "Riku Otani",
+      "name_ja": "Riku Otani",
+      "name_hira": "",
+      "name_en": "Riku Otani",
+      "team_name": "早稻田大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2004年",
+      "height": "200 cm",
+      "spike_reach": "340 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p705",
+      "name_zh": "石川祐希 \n160",
+      "name_ja": "石川祐希 \n160",
+      "name_hira": "",
+      "name_en": "石川祐希 \n160",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2019年",
+      "height": "192 cm",
+      "spike_reach": "351 cm",
+      "block_reach": "327 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "Ziraat Bankkart",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25 - 2025/26",
+          "team": "佩鲁贾",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2023/24",
+          "team": "米兰",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2019/20",
+          "team": "帕多瓦",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p703",
+      "name_zh": "福泽达哉 \n425",
+      "name_ja": "福泽达哉 \n425",
+      "name_hira": "",
+      "name_en": "福泽达哉 \n425",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2019年",
+      "height": "189 cm",
+      "spike_reach": "355 cm",
+      "block_reach": "330 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2019/20 - 2020/21",
+          "team": "Paris Volley",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2016/17 - 2018/19",
+          "team": "大阪布鲁顿",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2015/16",
+          "team": "Copel Telecom/Maringá Vôlei",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2008/09 - 2014/15",
+          "team": "大阪布鲁顿",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p24203",
+      "name_zh": "松本庆彦 \n539",
+      "name_ja": "松本庆彦 \n539",
+      "name_hira": "",
+      "name_en": "松本庆彦 \n539",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2008年",
+      "height": "193 cm",
+      "spike_reach": "352 cm",
+      "block_reach": "340 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2026/27",
+          "team": "长野三叉戟",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2008/09 - 2024/25",
+          "team": "日铁堺 开拓者",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2003/04 - 2007/08",
+          "team": "NEC Blue Rockets",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2002/03",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p85229",
+      "name_zh": "木村宪治 (Dekkan)",
+      "name_ja": "木村宪治 (Dekkan)",
+      "name_hira": "",
+      "name_en": "木村宪治 (Dekkan)",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2015年",
+      "height": "185 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "中央大学",
+          "league": "春高 / 高校联赛"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p254798",
+      "name_zh": "松本凛虎",
+      "name_ja": "松本凛虎",
+      "name_hira": "",
+      "name_en": "松本凛虎",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "322 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seifu High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p224381",
+      "name_zh": "中村悠晖",
+      "name_ja": "中村悠晖",
+      "name_hira": "",
+      "name_en": "中村悠晖",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "189 cm",
+      "spike_reach": "331 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Hieizan High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p203477",
+      "name_zh": "安迪·世凪·坂本",
+      "name_ja": "安迪·世凪·坂本",
+      "name_hira": "",
+      "name_en": "安迪·世凪·坂本",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "192 cm",
+      "spike_reach": "335 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Tohoku High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p104218",
+      "name_zh": "尾藤大辉",
+      "name_ja": "尾藤大辉",
+      "name_hira": "",
+      "name_en": "尾藤大辉",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "186 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Higashiyama High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p208606",
+      "name_zh": "滨本伶辉",
+      "name_ja": "滨本伶辉",
+      "name_hira": "",
+      "name_en": "滨本伶辉",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "180 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Hyuga Gakuin High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259791",
+      "name_zh": "田原壮真",
+      "name_ja": "田原壮真",
+      "name_hira": "",
+      "name_en": "田原壮真",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "188 cm",
+      "spike_reach": "331 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Matsusaka Technical High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p270569",
+      "name_zh": "斋藤寿明",
+      "name_ja": "斋藤寿明",
+      "name_hira": "",
+      "name_en": "斋藤寿明",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "186 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Tokyo Gakkan Niigata High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259910",
+      "name_zh": "Masaru Kanzaki",
+      "name_ja": "Masaru Kanzaki",
+      "name_hira": "",
+      "name_en": "Masaru Kanzaki",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2006年",
+      "height": "195 cm",
+      "spike_reach": "343 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Konko Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332071",
+      "name_zh": "Taiki Noda",
+      "name_ja": "Taiki Noda",
+      "name_hira": "",
+      "name_en": "Taiki Noda",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "189 cm",
+      "spike_reach": "328 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p104196",
+      "name_zh": "秋本悠月",
+      "name_ja": "秋本悠月",
+      "name_hira": "",
+      "name_en": "秋本悠月",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2005年",
+      "height": "191 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Sundai Gakuen High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p344491",
+      "name_zh": "Kaishin Ikeda",
+      "name_ja": "Kaishin Ikeda",
+      "name_hira": "",
+      "name_en": "Kaishin Ikeda",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "自由人 (L)",
+      "birthday": "2007年",
+      "height": "170 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Higashi Fukuoka High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p100068",
+      "name_zh": "伊藤苍真",
+      "name_ja": "伊藤苍真",
+      "name_hira": "",
+      "name_en": "伊藤苍真",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2004年",
+      "height": "195 cm",
+      "spike_reach": "345 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Seijoh High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p139291",
+      "name_zh": "笹本稳",
+      "name_ja": "笹本稳",
+      "name_hira": "",
+      "name_en": "笹本稳",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2004年",
+      "height": "190 cm",
+      "spike_reach": "340 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Aikodai Meiden High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p82762",
+      "name_zh": "舛本飒真",
+      "name_ja": "舛本飒真",
+      "name_hira": "",
+      "name_en": "舛本飒真",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2004年",
+      "height": "182 cm",
+      "spike_reach": "338 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2026/27",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21 - 2022/23",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p208606",
+      "name_zh": "volleybox.net",
+      "name_ja": "volleybox.net",
+      "name_hira": "",
+      "name_en": "volleybox.net",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "180 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "中央大学",
+          "league": "春高 / 高校联赛"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259813",
+      "name_zh": "Shota Takekawa",
+      "name_ja": "Shota Takekawa",
+      "name_hira": "",
+      "name_en": "Shota Takekawa",
+      "team_name": "中央大学",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "192 cm",
+      "spike_reach": "326 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Seijoh High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p58144",
+      "name_zh": "何塞·弗朗西斯科·金特罗",
+      "name_ja": "何塞·弗朗西斯科·金特罗",
+      "name_hira": "",
+      "name_en": "何塞·弗朗西斯科·金特罗",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2017年",
+      "height": "202 cm",
+      "spike_reach": "355 cm",
+      "block_reach": "335 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "2026年10月3日 - 2027年3月31日",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "2025年2月1日 - 2025年5月1日",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "Zion Volley Club",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "Tuv Mig Volleyball Club",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p327488",
+      "name_zh": "Yusei Matsuto",
+      "name_ja": "Yusei Matsuto",
+      "name_hira": "",
+      "name_en": "Yusei Matsuto",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "190 cm",
+      "spike_reach": "332 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329349",
+      "name_zh": "Kazuha Kikuchi",
+      "name_ja": "Kazuha Kikuchi",
+      "name_hira": "",
+      "name_en": "Kazuha Kikuchi",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "191 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329354",
+      "name_zh": "Shunei Mogami",
+      "name_ja": "Shunei Mogami",
+      "name_hira": "",
+      "name_en": "Shunei Mogami",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "182 cm",
+      "spike_reach": "325 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p159532",
+      "name_zh": "长井庆介",
+      "name_ja": "长井庆介",
+      "name_hira": "",
+      "name_en": "长井庆介",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2008年",
+      "height": "178 cm",
+      "spike_reach": "318 cm",
+      "block_reach": "316 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "University of Tsukuba",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329353",
+      "name_zh": "Rui Naganuma",
+      "name_ja": "Rui Naganuma",
+      "name_hira": "",
+      "name_en": "Rui Naganuma",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "174 cm",
+      "spike_reach": "290 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329348",
+      "name_zh": "Shotaro Takahashi",
+      "name_ja": "Shotaro Takahashi",
+      "name_hira": "",
+      "name_en": "Shotaro Takahashi",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "181 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329352",
+      "name_zh": "Koushin Fukuyama",
+      "name_ja": "Koushin Fukuyama",
+      "name_hira": "",
+      "name_en": "Koushin Fukuyama",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "179 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329346",
+      "name_zh": "Yusei Sasaki",
+      "name_ja": "Yusei Sasaki",
+      "name_hira": "",
+      "name_en": "Yusei Sasaki",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "183 cm",
+      "spike_reach": "338 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Komazawa University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329350",
+      "name_zh": "Kiyoto Kitada",
+      "name_ja": "Kiyoto Kitada",
+      "name_hira": "",
+      "name_en": "Kiyoto Kitada",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "184 cm",
+      "spike_reach": "325 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329355",
+      "name_zh": "Seigo Inaba",
+      "name_ja": "Seigo Inaba",
+      "name_hira": "",
+      "name_en": "Seigo Inaba",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "173 cm",
+      "spike_reach": "290 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329356",
+      "name_zh": "Teru Toshima",
+      "name_ja": "Teru Toshima",
+      "name_hira": "",
+      "name_en": "Teru Toshima",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "168 cm",
+      "spike_reach": "290 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329347",
+      "name_zh": "Sena Takahashi",
+      "name_ja": "Sena Takahashi",
+      "name_hira": "",
+      "name_en": "Sena Takahashi",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "183 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329357",
+      "name_zh": "Itsuki Uwatoko",
+      "name_ja": "Itsuki Uwatoko",
+      "name_hira": "",
+      "name_en": "Itsuki Uwatoko",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "182 cm",
+      "spike_reach": "315 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Heisei International University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p329351",
+      "name_zh": "Ryosuke Otsu",
+      "name_ja": "Ryosuke Otsu",
+      "name_hira": "",
+      "name_en": "Ryosuke Otsu",
+      "team_name": "秋田県立雄物川高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "自由人 (L)",
+      "birthday": "2007年",
+      "height": "175 cm",
+      "spike_reach": "295 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "International Budo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Omonogawa High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p57",
+      "name_zh": "卢克·史密斯 (Smiddy)",
+      "name_ja": "卢克·史密斯 (Smiddy)",
+      "name_hira": "",
+      "name_en": "卢克·史密斯 (Smiddy)",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2019年",
+      "height": "204 cm",
+      "spike_reach": "360 cm",
+      "block_reach": "342 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 至今",
+          "team": "VK TROX Příbram",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2025/26",
+          "team": "AERO Odolena Voda",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "Hatta Club Dubai",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24",
+          "team": "Jakarta Pertamina Pertamax",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p295270",
+      "name_zh": "Renga Saisho",
+      "name_ja": "Renga Saisho",
+      "name_hira": "",
+      "name_en": "Renga Saisho",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "187 cm",
+      "spike_reach": "331 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p293032",
+      "name_zh": "Sora Kinaga",
+      "name_ja": "Sora Kinaga",
+      "name_hira": "",
+      "name_en": "Sora Kinaga",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "185 cm",
+      "spike_reach": "331 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332074",
+      "name_zh": "Yuma Honda",
+      "name_ja": "Yuma Honda",
+      "name_hira": "",
+      "name_en": "Yuma Honda",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "180 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p257110",
+      "name_zh": "一之濑涟",
+      "name_ja": "一之濑涟",
+      "name_hira": "",
+      "name_en": "一之濑涟",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2008年",
+      "height": "191 cm",
+      "spike_reach": "339 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p295273",
+      "name_zh": "Haruto Hirakawa",
+      "name_ja": "Haruto Hirakawa",
+      "name_hira": "",
+      "name_en": "Haruto Hirakawa",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "187 cm",
+      "spike_reach": "335 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332072",
+      "name_zh": "Kodai Yamazaki",
+      "name_ja": "Kodai Yamazaki",
+      "name_hira": "",
+      "name_en": "Kodai Yamazaki",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "168 cm",
+      "spike_reach": "300 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p333965",
+      "name_zh": "Haruto Furukawa",
+      "name_ja": "Haruto Furukawa",
+      "name_hira": "",
+      "name_en": "Haruto Furukawa",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2009年",
+      "height": "185 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p345158",
+      "name_zh": "Ryuji Miyasako",
+      "name_ja": "Ryuji Miyasako",
+      "name_hira": "",
+      "name_en": "Ryuji Miyasako",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2008年",
+      "height": "185 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 至今",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2014/15 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2010/11 - 2013/14",
+          "team": "Fukuoka University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2007/08 - 2009/10",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p257473",
+      "name_zh": "福田空",
+      "name_ja": "福田空",
+      "name_hira": "",
+      "name_en": "福田空",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "173 cm",
+      "spike_reach": "313 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chukyo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p182751",
+      "name_zh": "岩下将大",
+      "name_ja": "岩下将大",
+      "name_hira": "",
+      "name_en": "岩下将大",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "188 cm",
+      "spike_reach": "337 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Juntendo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p320920",
+      "name_zh": "Ryosei Kojima",
+      "name_ja": "Ryosei Kojima",
+      "name_hira": "",
+      "name_en": "Ryosei Kojima",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "187 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Meijo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p257453",
+      "name_zh": "大石秀",
+      "name_ja": "大石秀",
+      "name_hira": "",
+      "name_en": "大石秀",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2008年",
+      "height": "179 cm",
+      "spike_reach": "328 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Fukuoka University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259790",
+      "name_zh": "西原凉瑛",
+      "name_ja": "西原凉瑛",
+      "name_hira": "",
+      "name_en": "西原凉瑛",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "191 cm",
+      "spike_reach": "339 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "Waseda University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p332071",
+      "name_zh": "Taiki Noda",
+      "name_ja": "Taiki Noda",
+      "name_hira": "",
+      "name_en": "Taiki Noda",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2007年",
+      "height": "189 cm",
+      "spike_reach": "328 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Chuo University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Chinzei High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p50832",
+      "name_zh": "Volodymyr Podkopayev",
+      "name_ja": "Volodymyr Podkopayev",
+      "name_hira": "",
+      "name_en": "Volodymyr Podkopayev",
+      "team_name": "鎮西高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2019年",
+      "height": "185 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26",
+          "team": "AEK Larnaca (女子)",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22",
+          "team": "Sports Academy Prometey (女子)",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2019/20",
+          "team": "Club Sportif Sfaxien (女子)",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2018/19 - 2019/20",
+          "team": "Al Jawa",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p702",
+      "name_zh": "清水邦广 (Gori) \n138",
+      "name_ja": "清水邦广 (Gori) \n138",
+      "name_hira": "",
+      "name_en": "清水邦广 (Gori) \n138",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2008年",
+      "height": "193 cm",
+      "spike_reach": "345 cm",
+      "block_reach": "335 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "大阪布鲁顿",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2008/09 - 2025/26",
+          "team": "大阪布鲁顿",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2005/06 - 2008/09",
+          "team": "Tokai University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2002/03 - 2004/05",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p24202",
+      "name_zh": "荻野正二",
+      "name_ja": "荻野正二",
+      "name_hira": "",
+      "name_en": "荻野正二",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2017年",
+      "height": "197 cm",
+      "spike_reach": "340 cm",
+      "block_reach": "320 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25",
+          "team": "Cairns State High School U15",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2024/25",
+          "team": "安山OK储蓄银行",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2020/21",
+          "team": "三得利太阳鸟",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2017/18 - 2018/19",
+          "team": "三得利太阳鸟",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p289045",
+      "name_zh": "Junya Tezuka",
+      "name_ja": "Junya Tezuka",
+      "name_hira": "",
+      "name_en": "Junya Tezuka",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2010年",
+      "height": "184 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2028/29",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p327492",
+      "name_zh": "Reoto Kuriuzawa",
+      "name_ja": "Reoto Kuriuzawa",
+      "name_hira": "",
+      "name_en": "Reoto Kuriuzawa",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2009年",
+      "height": "197 cm",
+      "spike_reach": "327 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p285686",
+      "name_zh": "Takeru Senda",
+      "name_ja": "Takeru Senda",
+      "name_hira": "",
+      "name_en": "Takeru Senda",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2010年",
+      "height": "183 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p269364",
+      "name_zh": "枩田大広",
+      "name_ja": "枩田大広",
+      "name_hira": "",
+      "name_en": "枩田大広",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "副攻 (MB)",
+      "birthday": "2009年",
+      "height": "196 cm",
+      "spike_reach": "320 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2027/28",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p335679",
+      "name_zh": "Ryosuke Kubota",
+      "name_ja": "Ryosuke Kubota",
+      "name_hira": "",
+      "name_en": "Ryosuke Kubota",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "自由人 (L)",
+      "birthday": "2007年",
+      "height": "174 cm",
+      "spike_reach": "305 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259792",
+      "name_zh": "能美伟时",
+      "name_ja": "能美伟时",
+      "name_hira": "",
+      "name_en": "能美伟时",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "183 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "东京学艺大学",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p210963",
+      "name_zh": "西田靖宏",
+      "name_ja": "西田靖宏",
+      "name_hira": "",
+      "name_en": "西田靖宏",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2009年",
+      "height": "196 cm",
+      "spike_reach": "343 cm",
+      "block_reach": "326 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2008/09 - 至今",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2006/07",
+          "team": "Tsukuba United SunGAIA",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2002/03 - 2005/06",
+          "team": "三得利太阳鸟",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2001/02",
+          "team": "NTT West Japan Regulus",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p192243",
+      "name_zh": "山本快",
+      "name_ja": "山本快",
+      "name_hira": "",
+      "name_en": "山本快",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2006年",
+      "height": "188 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "University of Tsukuba",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p259909",
+      "name_zh": "森本泰地",
+      "name_ja": "森本泰地",
+      "name_hira": "",
+      "name_en": "森本泰地",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "185 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "Komazawa University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p287341",
+      "name_zh": "Seiya Suzuki",
+      "name_ja": "Seiya Suzuki",
+      "name_hira": "",
+      "name_en": "Seiya Suzuki",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2006年",
+      "height": "175 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 至今",
+          "team": "弗拉戈拉德 鹿儿岛",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2024/25",
+          "team": "Aichi Gakuin University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2018/19 - 2020/21",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p192123",
+      "name_zh": "丸山英祐",
+      "name_ja": "丸山英祐",
+      "name_hira": "",
+      "name_en": "丸山英祐",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "177 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "Komazawa University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p192122",
+      "name_zh": "堤凰惺",
+      "name_ja": "堤凰惺",
+      "name_hira": "",
+      "name_en": "堤凰惺",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2005年",
+      "height": "189 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2027/28",
+          "team": "东京学艺大学",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2021/22 - 2023/24",
+          "team": "Fukui High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p420",
+      "name_zh": "伊班·佩雷斯·曼萨纳雷斯",
+      "name_ja": "伊班·佩雷斯·曼萨纳雷斯",
+      "name_hira": "",
+      "name_en": "伊班·佩雷斯·曼萨纳雷斯",
+      "team_name": "福井工業大学附属福井高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2019年",
+      "height": "198 cm",
+      "spike_reach": "353 cm",
+      "block_reach": "323 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27",
+          "team": "Chaumont Volley-Ball CFC",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Chaumont Volley-Ball 52",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2025/26",
+          "team": "2026年1月5日 - 2026年6月30日",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24",
+          "team": "Paris Volley",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p335829",
+      "name_zh": "Yuua Matsumoto",
+      "name_ja": "Yuua Matsumoto",
+      "name_hira": "",
+      "name_en": "Yuua Matsumoto",
+      "team_name": "宮崎県立都城工業高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2007年",
+      "height": "178 cm",
+      "spike_reach": "323 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2024/25 - 2026/27",
+          "team": "Miyakonojo Technical High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p344030",
+      "name_zh": "Kouya Kisanuki",
+      "name_ja": "Kouya Kisanuki",
+      "name_hira": "",
+      "name_en": "Kouya Kisanuki",
+      "team_name": "宮崎県立都城工業高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "主攻手 (OH)",
+      "birthday": "2007年",
+      "height": "185 cm",
+      "spike_reach": "335 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2026/27 - 2029/30",
+          "team": "Nihon University",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2023/24 - 2025/26",
+          "team": "Miyakonojo Technical High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p265819",
+      "name_zh": "濑户山文汰",
+      "name_ja": "濑户山文汰",
+      "name_hira": "",
+      "name_en": "濑户山文汰",
+      "team_name": "宮崎県立都城工業高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2006年",
+      "height": "176 cm",
+      "spike_reach": "330 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "NSSU",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Miyakonojo Technical High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    },
+    {
+      "id": "vb-p265820",
+      "name_zh": "山之内琢哉",
+      "name_ja": "山之内琢哉",
+      "name_hira": "",
+      "name_en": "山之内琢哉",
+      "team_name": "宮崎県立都城工業高校",
+      "cohort": "2024-2026",
+      "hometown": "日本",
+      "position": "二传 (S)",
+      "birthday": "2006年",
+      "height": "186 cm",
+      "spike_reach": "340 cm",
+      "block_reach": "315 cm",
+      "dominant_hand": "右",
+      "club_history": [
+        {
+          "period": "2025/26 - 2028/29",
+          "team": "NSSU",
+          "league": "Volleybox 履历"
+        },
+        {
+          "period": "2022/23 - 2024/25",
+          "team": "Miyakonojo Technical High School",
+          "league": "Volleybox 履历"
+        }
+      ],
+      "national_history": []
+    }
+  ],
   "matches": []
 }

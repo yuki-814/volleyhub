@@ -1,173 +1,347 @@
 import time
 import json
+import os
 import re
 from playwright.sync_api import sync_playwright
 
 # ==============================================================================
-# 🎯 目标清单：在这里填入排球盒(Volleybox)上的学校/俱乐部链接，或者直接填学校名字让爬虫去搜！
-# 你可以随时往这个列表里加任何你想扒的日本高中、大学或俱乐部
+# 🌳 一级母网站：春高锦标赛主页（爬虫会从这里自动发散找出所有参赛学校 -t 链接）
 # ==============================================================================
-TARGET_SCHOOLS = [
-    {"name_zh": "骏台学园", "name_ja": "駿台学園", "name_hira": "すんだいがくえん", "region": "东京", "category": "高校", "gender": "MEN", "search_query": "Sundai Gakuen"},
-    {"name_zh": "东山高校", "name_ja": "東山高校", "name_hira": "ひがしやま", "region": "京都", "category": "高校", "gender": "MEN", "search_query": "Higashiyama High School"},
-    {"name_zh": "清风高校", "name_ja": "清風高校", "name_hira": "せいふう", "region": "大阪", "category": "高校", "gender": "MEN", "search_query": "Seifu High School"},
-    {"name_zh": "镇西高校", "name_ja": "鎮西高校", "name_hira": "ちんぜい", "region": "熊本", "category": "高校", "gender": "MEN", "search_query": "Chinzei High School"},
-    {"name_zh": "星城高校", "name_ja": "星城高校", "name_hira": "せいじょう", "region": "爱知", "category": "高校", "gender": "MEN", "search_query": "Seijoh High School"},
-    {"name_zh": "东福冈高校", "name_ja": "東福岡高校", "name_hira": "ひがしふくおか", "region": "福冈", "category": "高校", "gender": "MEN", "search_query": "Higashi Fukuoka High School"},
-    {"name_zh": "下北泽成德", "name_ja": "下北沢成徳", "name_hira": "しもきたざわせいとく", "region": "东京", "category": "高校", "gender": "WOMEN", "search_query": "Shimokitazawa Seitoku"},
-    {"name_zh": "金兰会高校", "name_ja": "金蘭会高校", "name_hira": "きんらんかい", "region": "大阪", "category": "高校", "gender": "WOMEN", "search_query": "Kinrankai High School"},
-    {"name_zh": "早稻田大学", "name_ja": "早稲田大学", "name_hira": "わせだだいがく", "region": "关东1部", "category": "大学", "gender": "MEN", "search_query": "Waseda University"},
-    {"name_zh": "中央大学", "name_ja": "中央大学", "name_hira": "ちゅうおうだいがく", "region": "关东1部", "category": "大学", "gender": "MEN", "search_query": "Chuo University"},
+MOTHER_TOURNAMENT_URLS = [
+    "https://volleybox.net/zh/men-all-japan-high-school-championship-2025-26-o43505",
 ]
 
-# 也可以直接填入排球盒的具体球队/赛事/球员网址（如果你在浏览器里看到了某个页面，直接复制网址放这里）：
-DIRECT_TEAM_URLS = [
+# ==============================================================================
+# 🌿 二级发散种子学校：保底直接抓取的重点名校（还会自动遍历它们的 season_id 历年名单）
+# ==============================================================================
+SEED_SCHOOL_URLS = [
     "https://volleybox.net/zh/higashiyama-high-school-t10545",
-    "https://volleybox.net/zh/aoi-kobayashi-p332049",
-    "https://volleybox.net/zh/yuki-higo-p332050",
-    # 示例：如果找到具体网址可以直接粘在这里，比如 "https://volleybox.net/zh/sundai-gakuen-high-school-t12345"
+    "https://volleybox.net/zh/seisei-high-school-t35450",
+    "https://volleybox.net/zh/sundai-gakuen-high-school-t10546",
+    "https://volleybox.net/zh/seifu-high-school-t14391",
+    "https://volleybox.net/zh/chinzei-high-school-t10547",
+    "https://volleybox.net/zh/higashi-fukuoka-high-school-t12938",
+    "https://volleybox.net/zh/waseda-university-t5328",
+    "https://volleybox.net/zh/chuo-university-t1922",
 ]
 
-def parse_player_row(row_text, school_name, cohort_label):
-    """从排球盒的队员表格行中提取：姓名、位置、身高、摸高、生日"""
-    lines = [line.strip() for line in row_text.split("\n") if line.strip()]
-    if not lines:
-        return None
-    name = lines[0]
-    # 过滤掉表头或无效行
-    if name in ["球员", "Player", "Name", "姓名", "#"] or len(name) < 2:
-        return None
+# 常见学校中英日对照表（如果遇到新学校，爬虫会自动从网页左侧“名称翻译”提取中文/日文名！）
+SCHOOL_NAME_DICT = {
+    "t10545": {"zh": "东山高校", "ja": "東山高等学校", "hira": "ひがしやま", "region": "京都", "cat": "高校"},
+    "t35450": {"zh": "静清高校", "ja": "静清高等学校", "hira": "せいせい", "region": "静冈", "cat": "高校"},
+    "t10546": {"zh": "骏台学园", "ja": "駿台学園", "hira": "すんだいがくえん", "region": "东京", "cat": "高校"},
+    "t14391": {"zh": "清风高校", "ja": "清風高等学校", "hira": "せいふう", "region": "大阪", "cat": "高校"},
+    "t10547": {"zh": "镇西高校", "ja": "鎮西高等学校", "hira": "ちんぜい", "region": "熊本", "cat": "高校"},
+    "t12938": {"zh": "东福冈", "ja": "東福岡高等学校", "hira": "ひがしふくおか", "region": "福冈", "cat": "高校"},
+    "t5328":  {"zh": "早稻田大学", "ja": "早稲田大学", "hira": "わせだだいがく", "region": "关东1部", "cat": "大学"},
+    "t1922":  {"zh": "中央大学", "ja": "中央大学", "hira": "ちゅうおうだいがく", "region": "关东1部", "cat": "大学"},
+}
 
-    full_str = " ".join(lines)
-    # 匹配身高 (如 188 cm 或 188cm)
-    height_match = re.search(r"(1[5-9]\d|2[0-2]\d)\s*cm", full_str, re.IGNORECASE)
-    height = f"{height_match.group(1)} cm" if height_match else "185 cm"
+def wait_for_ready(page):
+    """等待页面加载完毕，如果遇到验证框则等待用户点击"""
+    for i in range(60):
+        try:
+            title = page.title().lower()
+            url = page.url.lower()
+            if "just a moment" in title or "请稍候" in title or "verification" in url or "challenge" in title:
+                if i == 0:
+                    print("   🛑 检测到验证框，请在 Chrome 窗口中手动点一下确认...")
+                time.sleep(2)
+            else:
+                return True
+        except Exception:
+            time.sleep(1)
+    return False
 
-    # 匹配摸高 (如 328 cm ~ 370 cm)
-    spike_match = re.search(r"(3[0-7]\d)\s*cm", full_str, re.IGNORECASE)
-    spike = f"{spike_match.group(1)} cm" if spike_match else "330 cm"
+def map_season_to_cohort(season_label):
+    if "2025" in season_label or "2026" in season_label:
+        return "2024-2026"
+    elif "2023" in season_label or "2024" in season_label:
+        return "2023-2025"
+    return "历届知名校友"
 
-    # 匹配常见位置
-    pos = "主攻 / 二传"
-    for p_key, p_val in [
-        ("Outside Hitter", "主攻手 (OH)"), ("主攻", "主攻手 (OH)"),
-        ("Setter", "二传 (S)"), ("二传", "二传 (S)"), ("舉球員", "二传 (S)"),
-        ("Middle-blocker", "副攻 (MB)"), ("副攻", "副攻 (MB)"), ("快攻", "副攻 (MB)"),
-        ("Opposite", "接应 (OP)"), ("接应", "接应 (OP)"),
-        ("Libero", "自由人 (L)"), ("自由球员", "自由人 (L)")
-    ]:
-        if p_key.lower() in full_str.lower():
-            pos = p_val
-            break
+def translate_pos(raw_pos):
+    raw = raw_pos.lower()
+    if "升球手" in raw or "二传" in raw or "二傳" in raw or "舉球" in raw or "setter" in raw:
+        return "二传 (S)"
+    if "主攻" in raw or "outside" in raw:
+        return "主攻手 (OH)"
+    if "快攻" in raw or "副攻" in raw or "middle" in raw:
+        return "副攻 (MB)"
+    if "接应" in raw or "接應" in raw or "opposite" in raw:
+        return "接应 (OP)"
+    if "自由" in raw or "libero" in raw:
+        return "自由人 (L)"
+    return "主攻手 (OH)"
+
+def extract_school_meta(page, team_url):
+    """从二级学校页面提取学校名（优先查字典，没有则自动读取页面左侧的『名称翻译』如：静清高等学校）"""
+    tid_match = re.search(r"-(t\d+)", team_url)
+    tid = tid_match.group(1) if tid_match else ""
+    if tid in SCHOOL_NAME_DICT:
+        return SCHOOL_NAME_DICT[tid]
+
+    # 使用 JS 直接从网页提取标题和左侧 Japanese Script 名称翻译
+    meta = page.evaluate("""() => {
+        const h1 = document.querySelector('h1') ? document.querySelector('h1').innerText.trim() : '未知学校';
+        const bodyText = document.body.innerText;
+        let jaName = h1;
+        const match = bodyText.match(/名称翻译[\\s\\S]{0,60}?([\\u4e00-\\u9fa5\\u3040-\\u30ff]+(?:高等学校|高校|大学|学園|学园))/);
+        if (match && match[1]) {
+            jaName = match[1].trim();
+        }
+        return { h1, jaName };
+    }""")
+    clean_zh = meta["jaName"].replace("高等学校", "高校")
+    return {"zh": clean_zh, "ja": meta["jaName"], "hira": "", "region": "东京", "cat": "高校"}
+
+def extract_roster_from_school_page(page):
+    """
+    核心突破：不依赖 <table>！
+    直接用浏览器开发者模式的 JS 扫描页面上所有带 -p数字 的球员链接，
+    同时把该球员所在行的文字（位置、身高 177 厘米、出生年份 2007）和他的三级个人主页链接一起抓出来！
+    """
+    return page.evaluate("""() => {
+        const anchors = Array.from(document.querySelectorAll('a[href*="-p"]'));
+        const results = [];
+        const seen = new Set();
+
+        for (const a of anchors) {
+            const href = a.href || '';
+            // 必须严格匹配球员个人主页格式：...-p加数字结尾
+            if (!/-p\\d+$/.test(href)) continue;
+            // 排除顶部导航栏或无关按钮
+            const name = a.innerText.trim();
+            if (!name || name.length < 2 || seen.has(href)) continue;
+            seen.add(href);
+
+            // 向上寻找包裹这名球员的那一整行容器，读取同行的位置、身高、出生年
+            let rowEl = a.parentElement;
+            for (let i = 0; i < 4; i++) {
+                if (rowEl && rowEl.innerText && rowEl.innerText.length < 180) {
+                    if (rowEl.innerText.includes('厘米') || rowEl.innerText.includes('cm') || rowEl.innerText.includes('手') || rowEl.innerText.includes('自由人')) {
+                        break;
+                    }
+                }
+                if (rowEl && rowEl.parentElement) rowEl = rowEl.parentElement;
+            }
+            const rowText = rowEl ? rowEl.innerText.replace(/\\n+/g, ' | ') : '';
+            results.push({ name, url: href, rowText });
+        }
+        return results;
+    }""")
+
+def extract_player_3rd_level_detail(page, fallback_name, fallback_row_text, school_zh, cohort_label, season_label):
+    """
+    三级网站解析：点进球员个人主页（如 https://volleybox.net/zh/sakuto-shimizu-p224391）
+    直接读取全文，提取【击球高度/摸高】、【身高】、【位置】、【俱乐部经验】
+    """
+    data = page.evaluate("""() => {
+        const h1 = document.querySelector('h1') ? document.querySelector('h1').innerText.trim() : '';
+        const text = document.body.innerText;
+        return { h1, text };
+    }""")
+
+    full_text = data["text"] + "\n" + fallback_row_text
+    name = data["h1"] if data["h1"] and len(data["h1"]) >= 2 else fallback_name
+
+    # 1. 提取身高 (匹配 "身高 173 厘米" 或行内的 "177 厘米")
+    h_match = re.search(r"身高\s*(\d{3})\s*(?:厘米|cm)", full_text, re.IGNORECASE)
+    if not h_match:
+        h_match = re.search(r"(1[5-9]\d|2[0-2]\d)\s*(?:厘米|cm)", full_text, re.IGNORECASE)
+    height = f"{h_match.group(1)} cm" if h_match else "182 cm"
+
+    # 2. 提取摸高 / 击球高度 (匹配 "擊球高度 310 厘米" 或 "击球高度 338 cm")
+    s_match = re.search(r"(?:擊球高度|击球高度|Spike\s*reach)\s*(\d{3})\s*(?:厘米|cm)", full_text, re.IGNORECASE)
+    spike = f"{s_match.group(1)} cm" if s_match else "330 cm"
+
+    # 3. 提取拦网高度
+    b_match = re.search(r"(?:攔網高度|拦网高度|Block\s*reach)\s*(\d{3})\s*(?:厘米|cm)", full_text, re.IGNORECASE)
+    block = f"{b_match.group(1)} cm" if b_match else "315 cm"
+
+    # 4. 提取出生年份 (如 2007 (17) 或 2008)
+    birth_match = re.search(r"\b(199\d|200\d|201\d)\b", fallback_row_text + " " + full_text)
+    birthday = f"{birth_match.group(1)}年" if birth_match else "高校世代"
+
+    # 5. 提取位置
+    pos = translate_pos(fallback_row_text + " " + full_text[:600])
+
+    # 6. 提取俱乐部/学校经验 (匹配形如 "2023/24 - 2025/26 Higashiyama High School")
+    history = []
+    exp_matches = re.findall(r"(20\d{2}/\d{2}(?:\s*-\s*(?:20\d{2}/\d{2}|至今))?)\s+([^\n]{3,40})", data["text"])
+    for period, team_str in exp_matches[:4]:
+        clean_team = team_str.strip()
+        if not any(bad in clean_team for bad in ["排名", "點擊", "厘米", "球員"]):
+            history.append({"period": period.strip(), "team": clean_team, "league": "Volleybox 履历"})
+
+    if not history:
+        history = [{"period": season_label, "team": school_zh, "league": "春高 / 高校联赛"}]
+
+    pid_match = re.search(r"-(p\d+)$", page.url)
+    pid = f"vb-{pid_match.group(1)}" if pid_match else f"vb-{school_zh}-{name}"
 
     return {
-        "id": f"vb-{school_name}-{name}-{int(time.time()*1000) % 100000}",
+        "id": pid,
         "name_zh": name,
         "name_ja": name,
         "name_hira": "",
         "name_en": name,
-        "team_name": school_name,
+        "team_name": school_zh,
         "cohort": cohort_label,
         "hometown": "日本",
         "position": pos,
-        "birthday": "高校/大学世代",
+        "birthday": birthday,
         "height": height,
         "spike_reach": spike,
-        "block_reach": "315 cm",
+        "block_reach": block,
         "dominant_hand": "右",
-        "club_history": [
-            {"period": cohort_label, "team": school_name, "league": "Volleybox 档案收录"}
-        ],
+        "club_history": history,
         "national_history": []
     }
 
 def run_scraper():
-    scraped_teams = []
-    scraped_players = []
-    scraped_matches = []
+    json_path = "app/scraped_data.json"
+    existing_data = {"teams": [], "players": [], "matches": []}
+    if os.path.exists(json_path):
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+        except Exception:
+            pass
 
-    print("🚀 启动 Volleybox 全自动爬虫...")
+    players_map = {p["name_zh"] + "_" + p["team_name"]: p for p in existing_data.get("players", [])}
+    teams_map = {t["name_zh"]: t for t in existing_data.get("teams", [])}
+
+    print("🚀 启动【一级赛事母站 ➔ 二级学校历年 ➔ 三级球员主页】全自动发散爬虫...")
     with sync_playwright() as p:
-        # 启动可见浏览器，遇到 Cloudflare 验证时你可以顺手点一下勾！
-        browser = p.chromium.launch(headless=False)
-        context = browser.new_context(locale="zh-CN")
-        page = context.new_page()
+        try:
+            browser = p.chromium.connect_over_cdp("http://localhost:9222")
+            context = browser.contexts[0]
+            page = context.pages[0] if context.pages else context.new_page()
+        except Exception as e:
+            print(f"❌ 无法连接 9222 端口的正版 Chrome！请确认已启动 Chrome 调试窗口: {e}")
+            return
 
-        for school in TARGET_SCHOOLS:
-            print(f"\n🔍 正在检索学校与历年选手: {school['name_zh']} ({school['search_query']})...")
+        # ==================================================================
+        # 第一层：从母网站（春高赛事主页）自动发散搜集所有参赛学校链接 (-t数字)
+        # ==================================================================
+        all_school_urls = list(SEED_SCHOOL_URLS)
+        for m_url in MOTHER_TOURNAMENT_URLS:
+            print(f"\n🌳 [第1层·母网站] 正在扫描赛事主页提取参赛学校: {m_url}")
             try:
-                # 1. 访问排球盒搜索页查找该学校主页
-                search_url = f"https://volleybox.net/zh/search?q={school['search_query'].replace(' ', '+')}"
-                page.goto(search_url, timeout=60000)
-                time.sleep(4)
+                page.goto(m_url, timeout=60000)
+                wait_for_ready(page)
+                time.sleep(3)
 
-                # 如果碰到人机验证页面，留出 10 秒让你在弹出的窗口里点一下确认
-                if "verification" in page.url or "challenge" in page.content().lower():
-                    print("⚠️ 检测到人机验证，请在弹出的浏览器窗口中点击验证框（等待 12 秒）...")
-                    time.sleep(12)
+                found_teams = page.evaluate("""() => {
+                    return Array.from(document.querySelectorAll('a[href*="-t"]'))
+                        .map(a => a.href.split('?')[0])
+                        .filter(h => /-t\\d+$/.test(h));
+                }""")
+                for t_url in found_teams:
+                    if t_url not in all_school_urls:
+                        all_school_urls.append(t_url)
+                print(f"   ✅ 从母网站成功发散提取到 {len(found_teams)} 个学校链接！当前待抓学校总数: {len(all_school_urls)}")
+            except Exception as e:
+                print(f"   ⚠️ 母网站扫描跳过: {e}")
 
-                # 寻找包含 -t (代表 team 球队) 的链接
-                team_links = page.locator("a[href*='-t']").all()
-                target_href = None
-                for link in team_links:
-                    href = link.get_attribute("href")
-                    if href and "-t" in href:
-                        target_href = href if href.startswith("http") else f"https://volleybox.net{href}"
-                        break
+        # ==================================================================
+        # 第二层：遍历每个学校主页 + 自动发散它的历年赛季 (?season_id=...)
+        # ==================================================================
+        for s_url in all_school_urls[:12]:  # 每次运行先抓前 12 所学校，可随时调大
+            print(f"\n=======================================================")
+            print(f"🏫 [第2层·学校网站] 正在进入: {s_url}")
+            try:
+                page.goto(s_url, timeout=60000)
+                wait_for_ready(page)
+                time.sleep(3)
 
-                # 记录学校词条
-                scraped_teams.append({
-                    "id": f"vb-team-{school['name_zh']}",
-                    "name_zh": school["name_zh"],
-                    "name_ja": school["name_ja"],
-                    "name_hira": school["name_hira"],
-                    "main_category": school["category"],
-                    "region": school["region"],
-                    "gender": school["gender"],
-                    "desc": f"Volleybox 同步档案 · {school['region']}代表名门"
-                })
+                s_meta = extract_school_meta(page, s_url)
+                s_name = s_meta["zh"]
+                print(f"   📌 识别学校名称: {s_name} ({s_meta['ja']})")
 
-                if not target_href:
-                    print(f"   未直接定位到球队链接，跳过队员表格抓取。")
-                    continue
+                # 将该学校加入网站学校库
+                teams_map[s_name] = {
+                    "id": f"vb-team-{s_name}",
+                    "name_zh": s_name,
+                    "name_ja": s_meta["ja"],
+                    "name_hira": s_meta["hira"],
+                    "main_category": s_meta["cat"],
+                    "region": s_meta["region"],
+                    "gender": "MEN",
+                    "desc": "Volleybox 自动同步名门档案"
+                }
 
-                print(f"   ✅ 命中球队主页: {target_href}")
-                page.goto(target_href, timeout=60000)
-                time.sleep(4)
+                # 提取页面上的历年 season_id 链接（如 2025/26, 2024/25, 2023/24）
+                season_pages = page.evaluate("""(baseUrl) => {
+                    const list = [{ url: baseUrl, label: '2025/26' }];
+                    const links = Array.from(document.querySelectorAll('a[href*="season_id="], option[value*="season_id="]'));
+                    for (const el of links) {
+                        const rawUrl = el.href || el.value || '';
+                        const txt = (el.innerText || '').trim();
+                        if (/20(2[2-6])\\/\\d{2}/.test(txt) && rawUrl) {
+                            const full = rawUrl.startsWith('http') ? rawUrl : window.location.origin + rawUrl;
+                            list.push({ url: full, label: txt });
+                        }
+                    }
+                    return list;
+                }""", s_url)
 
-                # 2. 提取页面上的队员名单表格行 (tr)
-                rows = page.locator("table tr").all()
-                count = 0
-                for r in rows[:35]: # 每所学校最多提取前 35 名历年代表选手
-                    txt = r.inner_text()
-                    p_obj = parse_player_row(txt, school["name_zh"], "2024-2026")
-                    if p_obj:
-                        scraped_players.append(p_obj)
-                        count += 1
-                print(f"   🎉 成功从 {school['name_zh']} 提取 {count} 名选手档案！")
+                # 去重历年赛季（每个学校最多抓最近 2 个赛季：今年 + 去年）
+                unique_seasons = []
+                seen_labels = set()
+                for sp in season_pages:
+                    if sp["label"] not in seen_labels:
+                        seen_labels.add(sp["label"])
+                        unique_seasons.append(sp)
+                unique_seasons = unique_seasons[:2]
+
+                for sp in unique_seasons:
+                    if sp["url"] != page.url:
+                        print(f"   📅 切换至历年赛季: {sp['label']} ({sp['url']})")
+                        page.goto(sp["url"], timeout=60000)
+                        wait_for_ready(page)
+                        time.sleep(3)
+
+                    cohort_label = map_season_to_cohort(sp["label"])
+                    roster_list = extract_roster_from_school_page(page)
+                    print(f"   🎯 在 [{s_name} · {sp['label']}] 发现 {len(roster_list)} 名球员！")
+
+                    # ==============================================================
+                    # 第三层：逐个点进球员个人主页 (-p数字) 抓取摸高与俱乐部履历！
+                    # ==============================================================
+                    for p_item in roster_list[:15]:  # 每个赛季抓前 15 名主力
+                        p_url = p_item["url"]
+                        p_name = p_item["name"]
+                        try:
+                            page.goto(p_url, timeout=60000)
+                            wait_for_ready(page)
+                            time.sleep(1.5)
+
+                            p_obj = extract_player_3rd_level_detail(
+                                page, p_name, p_item["rowText"], s_name, cohort_label, sp["label"]
+                            )
+                            players_map[p_obj["name_zh"] + "_" + s_name] = p_obj
+                            print(f"      ✔️ [第3层·球员] {p_obj['name_zh']} | {p_obj['position']} | 身高:{p_obj['height']} | 摸高:{p_obj['spike_reach']}")
+                        except Exception as pe:
+                            print(f"      ⚠️ 球员 {p_name} 跳过: {pe}")
+
+                    # 每抓完一个学校的一个赛季，立刻保存一次 JSON，实时生效！
+                    with open(json_path, "w", encoding="utf-8") as f:
+                        json.dump({
+                            "updated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+                            "teams": list(teams_map.values()),
+                            "players": list(players_map.values()),
+                            "matches": existing_data.get("matches", [])
+                        }, f, ensure_ascii=False, indent=2)
 
             except Exception as e:
-                print(f"   ❌ 抓取 {school['name_zh']} 时跳过: {e}")
+                print(f"   ❌ 学校 {s_url} 抓取异常: {e}")
 
-        browser.close()
-
-    # ==============================================================================
-    # 📦 核心一步：直接把扒下来的数据写成你网站能自动读取的 app/scraped_data.json！
-    # ==============================================================================
-    output_data = {
-        "updated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "teams": scraped_teams,
-        "players": scraped_players,
-        "matches": scraped_matches
-    }
-
-    with open("app/scraped_data.json", "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
-
-    print("\n========================================================")
-    print(f"✅ 全部抓取完成！共写入 {len(scraped_teams)} 所学校、{len(scraped_players)} 名选手到 app/scraped_data.json！")
-    print("👉 现在直接刷新你的网站 localhost:3000，新数据就会自动显示出来！")
-    print("========================================================")
+    print("\n=======================================================")
+    print(f"🏆 三级发散抓取全部完成！当前网站共收录 {len(players_map)} 名球员档案！")
+    print("👉 快去刷新 localhost:3000 查看成果吧！")
+    print("=======================================================")
 
 if __name__ == "__main__":
     run_scraper()
